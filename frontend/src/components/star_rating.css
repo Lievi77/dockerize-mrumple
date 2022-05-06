@@ -1,0 +1,24 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.star-div{
+    width: 300px;
+    font-size: 30px;
+}
+
+.on {
+    color: #ff9d3f;
+    text-shadow: 0 0 5px #212121;
+}
+.off {
+    color: #ccc;
+}
+
+/*star stuff */
+.fa-custom {
+    color: #ff9d3f;
+    text-shadow: 0 0 5px #212121;
+}

@@ -1,0 +1,73 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 80px !important;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px !important;
+}
+
+.search-button {
+  margin: 5px;
+  width: 50%;
+  padding: 40px;
+  border-radius: inherit;
+  background: url("/src/images/search-line.png") no-repeat center;
+  background-color: #ef6c00;
+}
+
+.search-button:hover {
+  background-color: #ff9d3f;
+}
+
+.search-box {
+  height: 200px;
+  width: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -25%;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.search-input:focus {
+  outline: none !important;
+  border: 2px solid #b53d00;
+}
+
+.search-input {
+  width: 50%;
+  margin: 5px;
+  padding-left: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: white;
+  border-radius: inherit;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #b53d00;
+}
+
+.banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e65100;
+  padding: 20px;
+}
+
+.acknowledgment {
+  margin-right: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.center {
+  text-align: center;
+}

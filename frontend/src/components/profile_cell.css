@@ -1,0 +1,20 @@
+body {
+  font-family: "roboto";
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "roboto";
+}
+
+#fire-meter {
+  max-width: 75%;
+}
+
+#controversy {
+  vertical-align: middle;
+  display: flex;
+  height:100%;
+  align-items: center;
+}
